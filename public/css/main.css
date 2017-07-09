@@ -1,0 +1,113 @@
+html, body {
+  height: 100%;
+  /*background: linear-gradient(135deg, lightSeaGreen, cyan, lightSeaGreen);*/
+  background-image: url(./resources/crystalHome.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+  left: 23%;
+  top: 0%;
+  /*color: fuchsia;*/
+  color: #191b30;
+  text-shadow: 2px 2px 1px white, -2px -2px 1px white;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+.aboutMe {
+  position: absolute;
+  color: #f27e4a;
+  text-shadow: 2px 2px 1px black, -2px -2px 1px white;
+  font-size: 2.25em;
+  top: 38%;
+  left: 63%;
+  /*transform: translate(-50%, -50%);*/
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+.youngLiving {
+  position: absolute;
+  border-radius: 10px 30px 10px 30px;
+  box-shadow: 5px 5px rgba(255, 255, 255, 0.8);
+  width: 35%;
+  height: 35%;
+  top: 35%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  /*background: rgba(0, 0, 0, 0.8);*/
+  background-image: url(./resources/EOflowers.jpg);
+  background-position: top;
+  background-size: cover;
+  white-space: nowrap;
+  /*background-attachment: fixed;*/
+  /*opacity: 0.9;*/
+  border: 5px solid black;
+}
+
+.myLife {
+  position: absolute;
+  border-radius: 10px 30px 10px 30px;
+  box-shadow: 5px 5px rgba(255, 255, 255, 0.8);
+  width: 35%;
+  height: 35%;
+  top: 35%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  /*background: rgba(0, 0, 0, 0.8);*/
+  background-image: url(./resources/sillouette1.jpg);
+  /*background-position: center;*/
+  background-size: cover;
+  /*background-attachment: fixed;*/
+  border: 5px solid black;
+}
+
+.blog {
+  position: absolute;
+  border-radius: 10px 30px 10px 30px;
+  box-shadow: 5px 5px rgba(255, 255, 255, 0.8);
+  width: 35%;
+  height: 35%;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*background: rgba(0, 0, 0, 0.8);*/
+  background-image: url(./resources/jesus3.jpg);
+  background-position: center;
+  background-size: cover;
+  /*background-attachment: fixed;*/
+  border: 5px solid black;
+}
+
+.blogWords {
+  position: absolute;
+  color: #e2f7f8;
+  text-shadow: 2px 2px 1px black, -2px -2px 1px black;
+  font-size: 2.5em;
+  top: 67%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+.oils {
+  position: absolute;
+  color: #c8b5f1;
+  text-shadow: 2px 2px 1px #2a1819, -2px -2px 1px #597fd9;
+  font-size: 2.25em;
+  top: 0%;
+  left: 78%;
+  transform: translate(-50%, -50%);
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+p {
+  margin: 10%;
+  line-height: 125%;
+  text-indent: 10mm;
+}
