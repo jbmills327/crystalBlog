@@ -12,20 +12,23 @@ h1 {
   position: absolute;
   transform: translate(-50%, -50%);
   font-size: 4em;
-  left: 23%;
+  letter-spacing: 9px;
+  font-weight: 600;
+  left: 50%;
   top: 0%;
   /*color: fuchsia;*/
   color: #191b30;
-  text-shadow: 2px 2px 1px white, -2px -2px 1px white;
+  text-shadow: 3px 3px 1px #76acd6, -3px -3px 1px white;
   font-family: 'Shadows Into Light Two', cursive;
 }
 
 .aboutMe {
   position: absolute;
+  letter-spacing: 3px;
   color: #f27e4a;
   text-shadow: 2px 2px 1px black, -2px -2px 1px white;
   font-size: 2.25em;
-  top: 38%;
+  top: 35%;
   left: 63%;
   /*transform: translate(-50%, -50%);*/
   font-family: 'Shadows Into Light Two', cursive;
@@ -33,12 +36,13 @@ h1 {
 
 .youngLiving {
   position: absolute;
+  letter-spacing: 3px;
   border-radius: 10px 30px 10px 30px;
   box-shadow: 5px 5px rgba(255, 255, 255, 0.8);
   width: 35%;
   height: 35%;
-  top: 35%;
-  left: 30%;
+  top: 36%;
+  left: 28%;
   transform: translate(-50%, -50%);
   /*background: rgba(0, 0, 0, 0.8);*/
   background-image: url(./resources/EOflowers.jpg);
@@ -56,8 +60,8 @@ h1 {
   box-shadow: 5px 5px rgba(255, 255, 255, 0.8);
   width: 35%;
   height: 35%;
-  top: 35%;
-  left: 70%;
+  top: 36%;
+  left: 72%;
   transform: translate(-50%, -50%);
   /*background: rgba(0, 0, 0, 0.8);*/
   background-image: url(./resources/sillouette1.jpg);
@@ -73,7 +77,7 @@ h1 {
   box-shadow: 5px 5px rgba(255, 255, 255, 0.8);
   width: 35%;
   height: 35%;
-  top: 75%;
+  top: 76%;
   left: 50%;
   transform: translate(-50%, -50%);
   /*background: rgba(0, 0, 0, 0.8);*/
@@ -86,11 +90,12 @@ h1 {
 
 .blogWords {
   position: absolute;
+  letter-spacing: 3px;
   color: #e2f7f8;
   text-shadow: 2px 2px 1px black, -2px -2px 1px black;
-  font-size: 2.5em;
-  top: 67%;
-  left: 15%;
+  font-size: 2.25em;
+  top: 69%;
+  left: 21%;
   transform: translate(-50%, -50%);
   font-family: 'Shadows Into Light Two', cursive;
 }
@@ -101,7 +106,7 @@ h1 {
   text-shadow: 2px 2px 1px #2a1819, -2px -2px 1px #597fd9;
   font-size: 2.25em;
   top: 0%;
-  left: 78%;
+  left: 76%;
   transform: translate(-50%, -50%);
   font-family: 'Shadows Into Light Two', cursive;
 }
