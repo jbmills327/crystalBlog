@@ -25,10 +25,10 @@ h1 {
 .aboutMe {
   position: absolute;
   letter-spacing: 3px;
-  color: #f27e4a;
-  text-shadow: 2px 2px 1px black, -2px -2px 1px white;
+  color: #e67300;
+  text-shadow: 2px 2px 1px white, -2px -2px 1px white;
   font-size: 2.25em;
-  top: 35%;
+  top: 31%;
   left: 63%;
   /*transform: translate(-50%, -50%);*/
   font-family: 'Shadows Into Light Two', cursive;
@@ -45,7 +45,7 @@ h1 {
   left: 28%;
   transform: translate(-50%, -50%);
   /*background: rgba(0, 0, 0, 0.8);*/
-  background-image: url(./resources/EOflowers.jpg);
+  background-image: url(./resources/crystalFourEdit.jpg);
   background-position: top;
   background-size: cover;
   white-space: nowrap;
@@ -102,11 +102,11 @@ h1 {
 
 .oils {
   position: absolute;
-  color: #c8b5f1;
-  text-shadow: 2px 2px 1px #2a1819, -2px -2px 1px #597fd9;
+  color: DarkMagenta;
+  text-shadow: 2px 2px 1px #00b3b3, -2px -2px 1px #00b3b3;
   font-size: 2.25em;
   top: 0%;
-  left: 76%;
+  left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Shadows Into Light Two', cursive;
 }

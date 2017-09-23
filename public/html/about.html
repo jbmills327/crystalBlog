@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html ng-app="MyApp">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Life</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="../css/about.css">
+  <link rel="icon" href="../css/resources/doveThree.png">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Poiret+One" rel="stylesheet">
+
+
+  <script type="text/javascript">
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      // document.getElementById("main").style.marginLeft = "250px";
+      document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      // document.getElementById("main").style.marginLeft = "0";
+      document.body.style.backgroundColor = "white";
+    }
+  </script>
+</head>
+
+<body ng-controller="MainCtrl as main">
+  <div class="cover">
+  </div>
+  <p class="aboutText">
+    Well, where do I start? I guess at the beginning!! I was born in Prescott, AZ in 1992, but from 1994-2012 I was raised in Apple Valley, Ca. I was a feisty little blonde girl that used to delight in wearing a bright orange ski jumpsuit to school - and
+    even church! Loved playing scientist, hand-to-hand combat with imaginary enemies, and besides the presence of God, nothing still beats the feeling of riding on the back of my dad's motorcycle. Somehow I managed to play with Barbies a little too late.
+    Oh well. I asked a lot of questions and wasn't afraid to let the world know how I sang and danced. Paintbrushes and tables were my microphone and stage. Ask my sister any day, bless her heart, how I MADE her sit in a chair with no physical constraints
+    - simply by my feisty will. My mom clearly remembers the day my sister cried out "MOOOOMMM!! Crystal won't let me get up!!". (She is four years OLDER than me, by the way!) From making up dances and building forts, camping in the living room, to knowing
+    everything there is to know about Super Mario Brothers 3 and Disney, I have LITTLE to say against my childhood. THANK YOU, MOTHER AND FATHER. Perhaps the BEST story is my mother finding me in the bathroom with full blown tears telling her how much
+    of a sinner I am. I think I was 3? Perhaps you are asking why that's the best story I can tell you. That's where my foundation was laid. Utter conviction that I am completely separated from God because of sin. BUT, JESUS. Let's fast forward!! Jr high,
+    I DO WHAT I WANT. High school, I DO WHAT I WANT. I think we all can relate. Although I did decent in school and started working at 14 to be able to buy my very first TRUCK (not a car) by the time I was 16- I grew up way too fast. I'll spare the details,
+    but continue to follow my blog if you want to know more details of my life! I grieve growing up too fast and am currently working on growing back down (praise the LORD). Let's keep going! I was able to achieve my first-degree black belt in Tang Soo
+    Do not too much longer after this and became a phlebotomist. I currently still work at Palmdale Regional Medical Center (6 years -- woop!!) I am also crossed-trained in pathology. Not going to expand on pathology details for the queasy people reading.
+    =] I HAVE THE SWEETEST little boy named Paxton who is amazing - and a gift. And my joy. And my peace. And my melting point. And my squishy Mcsquisherson. My buddy who journeys with me on this life adventure. I got married in 2013 and divorced this
+    year (2017). I do not feel led to share this part of my life in a very open way quite yet. All I WILL say is that this divorce was another road to Jesus (yay!). This divorce was not my choice, and this divorce was the only biblical grounds for divorce.
+    And yes I had my son within the marriage (for all the nosy people out there, I still love you). I strive to respect the father of my son because that's what he is and will always be. Sorry, not sorry on this one- it's a great testimony and juicy details,
+    but let's keep it classy. So where am I now? The greatest thrill and fulfillment I get is when the Holy Spirit moves within me to touch people who he chooses. I decided in 2014 that sitting in a pew afraid to raise my hands in praise was NOT where
+    I was supposed to be (I AM NOT SAYING the conservative church is wrong). I personally choose to dance. And wave colorful, silky flags in the air always knowing my Father in heaven is enthralled and rejoicing over me in return. Don't ask me how this
+    came to me - it just did. I just do it, love it, and enjoy it. Let's remember I used to wear a bright orange ski jumpsuit to school, I think me waving silky material in the air is fitting. So if my theme hasn't jumped out to you yet, I FREAKING LOVE
+    JESUS. He IS life, He IS love, and HE lives inside of me (technically Holy Spirit- still talking to my nosy theologians. STILL LOVE YOU). AND Woah. It gets better and better every time I say it - I have a desire to touch the nation of Ireland and
+    am going this October!! (2017) Pray for me. SERIOUSLY. I need it. A very wise woman (who is DEAR to my heart) told me that when she sees me, she sees a woman with "big sails". I couldn't agree more. I have very big sails. And I pray earnestly they
+    will always be steered in the correct direction. I feel it in my bones that God is going to move like has never happened in history before. I believe He is going to do it in a way that is nothing you ever expected. So stay in the God's Word, the Bible,
+    but open to His spirit so that you may perceive this. Seriously, that's a encouragement/warning. My greatest dream I could ever attain is to be a part of this move. Hide original message Bless you ALL!!! Please contact me, I love to connect.</p>
+  <!-- <div class="holdText">
+  </div> -->
+
+  <!-- This is the slide menu -->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="/">Home</a>
+    <a href="https://www.myyl.com/crystaljoy0426" target="_blank" onclick="closeNav()">Oils</a>
+  </div>
+
+  <!-- This is the hamburger menu button that opens the slide menu -->
+  <button type="button" class="btn btn-default btn-lg openMenu" onclick="openNav()">
+    <span class = "glyphicon glyphicon-menu-hamburger" aria-hidden = "true"></span>
+  </button>
+
+  <script type="text/javascript" src="../js/module.js"></script>
+  <script type="text/javascript" src="../js/myScripts.js"></script>
+  <script type="text/javascript" src="../js/crystalFactory.js"></script>
+</body>
+
+</html>

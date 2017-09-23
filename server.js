@@ -12,7 +12,7 @@ var PORT = process.env.PORT || 3000;
 
 var app = express();
 
-// mongoose.connect('mongodb://localhost/crystalBlog');
+mongoose.connect('mongodb://localhost/crystalBlog');
 
 app.use(express.static('public'));
 
