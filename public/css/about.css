@@ -8,7 +8,7 @@ body {
   height: 100%;
   /*width: 100%;*/
   position: relative;
-  background-image: url(./resources/crysPax.JPG);
+  background-image: url(./resources/newAbout.JPG);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -46,7 +46,7 @@ h1 {
   position: fixed;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
   /*background: linear-gradient(130deg, rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.6));*/
 }
 
@@ -113,8 +113,8 @@ h1 {
   /*font-family: 'Indie Flower', cursive;*/
   font-family: 'Poiret One', cursive;
   top: 15%;
-  color: LightCoral;
-  text-shadow: .5px .5px 1px Maroon;
+  color: CadetBlue;
+  text-shadow: .5px .5px 1px DarkBlue;
   z-index: 1;
   /*transform: translate(-50%, -50%);*/
   padding: 0;
