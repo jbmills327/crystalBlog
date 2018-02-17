@@ -6,8 +6,11 @@ var express = require('express'),
 
 
 
+// For test
+// var PORT = process.env.PORT || 3000;
 
-var PORT = process.env.PORT || 3000;
+// For production
+var PORT = process.env.PORT || 80;
 
 
 var app = express();
